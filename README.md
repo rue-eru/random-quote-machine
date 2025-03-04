@@ -1,6 +1,6 @@
 <<<<<<< HEAD
 # Random Quote Machine
-**Live Demo:** [https://rue-eru.github.io/js-calculator](https://rue-eru.github.io/random-quote-machine)
+**Live Demo:** [https://rue-eru.github.io/random-quote-machine](https://rue-eru.github.io/random-quote-machine)
 
 This project is a part of FreeCodeCamp's Front End Development Libraries Certification. The goal is to build a **Random Quote Machine** that fetches a random quote from the API and displays it on the page while changing background as well.
 
