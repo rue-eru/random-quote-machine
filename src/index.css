@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius+Unicase:wght@400;700&family=Doto:wght@100..900&family=Londrina+Sketch&family=Markazi+Text:wght@400..700&family=Pixelify+Sans:wght@400..700&family=Quicksand:wght@300..700&family=Reenie+Beanie&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Tiny5&display=swap');
+
+:root {
+  /*fonts*/
+  --main-font: optima;
+  --Quote-font: Delius Unicase, Times New Roman;
+  /*colors*/
+  --container: rgba(240, 248, 255, 0.91);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--main-font);
+}
+
+#backgroundcolor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  z-index: -1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#quote-box {
+  background-color: var(--container);
+  margin: 10px;
+  padding: 30px;
+  border: var(--container) 5px solid;
+  border-radius: 7px;
+  width: 40%;
+  box-shadow: 4px 4px 15px 3px #000;
+}
+
+#text {
+  font-family: var(--Quote-font);
+  width: 90%;
+  margin: 0 auto;
+  font-size: 2rem;
+  text-align: center;
+  text-wrap: wrap;
+}
+
+#author {
+  text-align: end;
+  font-size: 1.1rem;
+}
+
+#new-quote,
+#tweet-quote  {
+  font-family: var(--main-font);
+  color: var(--container);
+  height: 30px;
+  border: solid #0000005a 1px;
+  border-radius: 3px;
+  cursor: pointer;
+  color: white;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.btns {
+  display: flex;
+  justify-content: flex-start;
+  gap: 4px;
+  margin-left: 20px;
+}
+
+svg {
+  margin: 4px 4px;
+  fill: #fff; /* red */
+  stroke: #000; /* green */
+}
+
+#footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+  font-family: var(--main-font);
+  color: #555;
+  background-color: #ffffff2c;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
