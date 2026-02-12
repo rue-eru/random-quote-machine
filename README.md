@@ -56,9 +56,9 @@ This project fulfills all **11 user stories** from FreeCodeCamp's "Build a Rando
 [![Live Demo](https://img.shields.io/badge/demo-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white)](https://rue-eru.github.io/random-quote-machine/)
 
 ---
-*First project of my [FreeCodeCamp Front End Libraries Certificate](https://www.freecodecamp.org/certification/fcc058fd235-9bca-44b6-b085-10ee4a9bdda6/front-end-development-libraries) journey*
 
-
-![Certificate](./src/assets/FrontEnd-Development-LIbraries.png)
+| First project of my [FreeCodeCamp Front End Libraries Certificate](https://www.freecodecamp.org/certification/fcc058fd235-9bca-44b6-b085-10ee4a9bdda6/front-end-development-libraries) journey |
+|---|
+| ![Certificate](./src/assets/FrontEnd-Development-LIbraries.png) |
 
 
